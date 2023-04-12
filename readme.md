@@ -9,7 +9,6 @@ Write UDP programs allowing two parties(Alice and Bob) to establish a secure com
 # Compilation Info
 
 Optional - setup program
-Purpose:
 1. Hash Bob's hardcoded PW using SHA-1 hashing algorithm
 2. Generate Diffie Hellman parameters
 3. Save (p, g, H(PW)) to a text file under Alice's directory
@@ -19,7 +18,6 @@ How
 2. java setup
 
 What will happen
-----------------
 - Program will generate new DH parameters again and overwrite the dhparams.txt in Alice's directory
 - Note: p and g are the only values that will change. H(PW) remains the same unless PW is changed prior to the execution of the program.
 
