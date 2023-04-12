@@ -9,14 +9,12 @@ Write UDP programs allowing two parties(Alice and Bob) to establish a secure com
 # Compilation Info
 
 Optional - setup program
-------------------------
 Purpose:
 1. Hash Bob's hardcoded PW using SHA-1 hashing algorithm
 2. Generate Diffie Hellman parameters
 3. Save (p, g, H(PW)) to a text file under Alice's directory
 
 How
----
 1. javac setup.java
 2. java setup
 
